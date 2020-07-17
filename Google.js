@@ -122,5 +122,6 @@ function Func_ChgEye(){
     }else{
         document.getElementById("eye_icon").src=eye_op;
     }
+    Func_ShowPwd([txt_pwd,txt_commit])
 }
 
